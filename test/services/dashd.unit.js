@@ -798,7 +798,7 @@ describe('Dash Service', function() {
         }
       };
       var dashd = new DashService(config);
-      dashd._getDefaultConf().rpcport.should.equal(19998);
+      dashd._getDefaultConf().rpcport.should.equal(35776);
     });
     it('will get default rpc port for regtest', function() {
       dashcore.Networks.enableRegtest();
@@ -812,7 +812,7 @@ describe('Dash Service', function() {
         }
       };
       var dashd = new DashService(config);
-      dashd._getDefaultConf().rpcport.should.equal(19998);
+      dashd._getDefaultConf().rpcport.should.equal(35776);
     });
   });
 
